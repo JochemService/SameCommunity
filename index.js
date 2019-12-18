@@ -53,7 +53,7 @@ bot.on("ready", async () => {
 
     console.log(`${bot.user.username} is online!`)
 
-    bot.user.setActivity("Test", {type: "LISTENING"});
+    bot.user.setActivity("uw vragen!", {type: "LISTENING"});
 });
 bot.on('message', message => {
  

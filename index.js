@@ -61,23 +61,6 @@ bot.on('message', message => {
         message.channel.send("Hallo " + message.author + "!");
 
 });
-
-bot.on('message', message => {
- 
-    if(message.content.toLowerCase() === 'help')
-        message.channel.send("**GeoHost Bot** \n\n **__Messages__** \nhallo - krijg een bericht terug \nwebsite - krijg de link naar de website");
-
-});
-
-bot.on('message', message => {
-    if (message.channel.id === "583629739613487104") {
-
-         message.react("👍");
-         message.react("👎");
-     }
-
-});
-
 // chat bot
 
 bot.on("message", async message => {

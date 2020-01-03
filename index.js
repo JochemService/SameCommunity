@@ -61,6 +61,15 @@ bot.on('message', message => {
         message.channel.send("Hallo " + message.author + "!");
 
 });
+
+bot.on('message', message => {
+    if (message.channel.id === "662619996337209374") {
+
+         message.react("👍");
+         message.react("👎");
+     }
+
+});
 // chat bot
 
 bot.on("message", async message => {
